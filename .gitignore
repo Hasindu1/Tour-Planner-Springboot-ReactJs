@@ -1,0 +1,37 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+**src/main/webapp/front-end/node_modules
+**src/main/webapp/front-end/.pnp
+**src/main/webapp/front-end.pnp.js
+
+# testing
+**src/main/webapp/front-end/coverage
+
+# production
+**src/main/webapp/front-end/build
+
+# misc
+**src/main/webapp/front-end/.DS_Store
+**src/main/webapp/front-end/.env.local
+**src/main/webapp/front-end/.env.development.local
+**src/main/webapp/front-end/.env.test.local
+**src/main/webapp/front-end/.env.production.local
+
+**src/main/webapp/front-end/npm-debug.log*
+**src/main/webapp/front-end/yarn-debug.log*
+**src/main/webapp/front-end/yarn-error.log
